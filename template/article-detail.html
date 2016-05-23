@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="row">
+    <section class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+      <div>
+        <h2 class="article_title">
+            {{article.title}}
+        </h2>
+        <span>{{article.date}}</span>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <img ng-src="{{article.image}}" alt="article_image" class="img-responsive">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            {{article.body}}
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <aside class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+      <h3>All articles</h3>
+      <ul class="list-unstyled">
+        <li ng-repeat="article in articles">
+          <h4><a href="#/articles/{{article.id}}">{{article.title}}</a></h4>
+          <label>{{article.date}}</label>
+          <p>{{article.body}}</p>
+        </li>
+      </ul>
+      <h3>Current category articles</h3>
+      <ul class="list-unstyled">
+        <li ng-repeat="article in articles | filter:{category_id:articleFilter}"">
+          <h4><a href="#/articles/{{article.id}}">{{article.title}}</a></h4>
+          <label>{{article.date}}</label>
+          <p>{{article.body}}</p>
+        </li>
+      </ul>
+    </aside>
+  </div>
+</div>

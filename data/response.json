@@ -1,0 +1,90 @@
+{  
+  "articles": [ 
+      {
+          "id": 1, 
+          "title":"Seeking Pluto’s Frigid Heart",
+          "image" : "images/article-1.jpg",
+          "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae ipsum nec mi sollicitudin varius eu in ligula.",
+          "date" : "20/05/2016",
+          "category_id" : 1
+      },
+      {
+          "id": 2, 
+          "title":"New Solar Plants Generate Floating Green Power",
+          "image" : "images/article-2.jpg",
+          "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae ipsum nec mi sollicitudin varius eu in ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae ipsum nec mi sollicitudin varius eu in ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae ipsum nec mi sollicitudin varius eu in ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae ipsum nec mi sollicitudin varius eu in ligula.",
+          "date" : "20/05/2016",
+          "category_id" : 1
+      },
+      {
+          "id": 3, 
+          "title":"Unplugging the Colorado River",
+          "image" : "images/article-3.jpg",
+          "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae ipsum nec mi sollicitudin varius eu in ligula.",
+          "date" : "20/05/2016",
+          "category_id" : 1
+      },
+      {
+          "id": 4, 
+          "title":"Orca",
+          "image" : "images/article-4.jpg",
+          "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae ipsum nec mi sollicitudin varius eu in ligula.",
+          "date" : "20/05/2016",
+          "category_id" : 2
+      },
+      {
+          "id": 5, 
+          "title":"Panda",
+          "image" : "images/article-5.jpg",
+          "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae ipsum nec mi sollicitudin varius eu in ligula.",
+          "date" : "20/05/2016",
+          "category_id" : 2
+      },
+      {
+          "id": 6, 
+          "title":"Cat",
+          "image" : "images/article-6.jpg",
+          "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae ipsum nec mi sollicitudin varius eu in ligula.",
+          "date" : "20/05/2016",
+          "category_id" : 2
+      },
+      {
+          "id": 7, 
+          "title":"Apple",
+          "image" : "images/article-7.jpg",
+          "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae ipsum nec mi sollicitudin varius eu in ligula.",
+          "date" : "20/05/2016",
+          "category_id" : 3
+      },
+      {
+          "id": 8, 
+          "title":"Microsoft",
+          "image" : "images/article-8.jpg",
+          "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae ipsum nec mi sollicitudin varius eu in ligula.",
+          "date" : "20/05/2016",
+          "category_id" : 3
+      },
+      {
+          "id": 9, 
+          "title":"IBM",
+          "image" : "images/article-9.jpg",
+          "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae ipsum nec mi sollicitudin varius eu in ligula.",
+          "date" : "20/05/2016",
+          "category_id" : 3
+      }
+   ],
+  "categories" : [
+      {
+        "name" : "Planet",
+        "id" : 1
+      },
+       {
+        "name" : "Animals",
+        "id" : 2
+      },
+       {
+        "name" : "Information technologies",
+        "id" : 3
+      }
+   ]
+}
